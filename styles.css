@@ -1,0 +1,9 @@
+ body {background-color: #f2fa7f; font-family: Calibri, sans-serif}
+ h1,
+ h2,
+ h3 {color:brown}
+.ingredients {color:rgb(92, 142, 218)}
+.directions {color:rgb(4, 100, 4)}
+em {color: red}
+strong {color: red}
+p, ul {color: brown}
