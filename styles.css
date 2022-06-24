@@ -1,9 +1,60 @@
- body {background-color: #f2fa7f; font-family: Calibri, sans-serif}
- h1,
- h2,
- h3 {color:brown}
-.ingredients {color:rgb(92, 142, 218)}
-.directions {color:rgb(4, 100, 4)}
-em {color: red}
-strong {color: red}
-p, ul {color: brown}
+body {
+    display: block;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0px;
+    margin-bottom: 75px;
+    background-color: #f2fa7f; 
+    font-family: Calibri, sans-serif;
+}
+
+
+.the-recipe {
+    font-size: 45px;
+    margin: 75px 0 50px 0;
+}
+
+.pork-tacos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
+ h1, h2, h3 {
+    color:brown;
+    font-size: 35px;
+}
+
+
+.ingredients {
+    color:rgb(92, 142, 218);
+    font-size: 20px;
+}
+
+
+.directions {
+    color:rgb(4, 100, 4);
+}
+
+
+em {
+    color: red;
+    font-size: 30px
+}
+
+
+.strong-box {
+    color: red;
+    text-align: center;
+    /*Wonder why this does not center the text in the box?*/
+    font-size: 2em;
+}
+
+
+p, ul, ol {
+    color: brown;
+    margin: 35px 15px 35px 15px;
+    font-size: 20px;
+}
